@@ -16,5 +16,6 @@ namespace WebEducationService.Data {
         public DbSet<Student2> Students2 { get; set; }
         public DbSet<Class> Class { get; set; }
         public DbSet<Instructor> Instructor { get; set; }
+        public DbSet<Enrolled> Enrolled { get; set; }
     }
 }
